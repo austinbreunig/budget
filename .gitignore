@@ -1,0 +1,9 @@
+# ignore local data files
+.data/
+
+# ignore local environment files
+.env/
+
+# ignore cache files
+.cache/
+__pycache__/

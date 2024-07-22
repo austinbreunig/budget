@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "budget"
+version = "0.1.0"
+description = "CLI Budget tool"
+authors = ["Austin Breunig"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+pandas = "^2.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+budget = "budget:cli"
